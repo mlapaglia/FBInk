@@ -26,6 +26,9 @@ jobs:
           - platform: Kindle-HF
             toolchain: kindlehf.tar.gz
             make_flags: KINDLE=true
+          - platform: Kindle5
+            toolchain: kindle5.tar.gz
+            make_flags: KINDLE=true
           - platform: Kindle-Legacy
             toolchain: kindle.tar.gz
             make_flags: "KINDLE=true LEGACY=true"
